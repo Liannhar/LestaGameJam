@@ -8,10 +8,24 @@ public class LestaGameJam : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { 
+			"Core", 
+			"CoreUObject", 
+			"Engine", 
+			"InputCore",
+			"Niagara",
+			"GameplayTasks",
+			"PhysicsCore",
+			"NavigationSystem",
+			"UMG"
+		});
 
-		PrivateDependencyModuleNames.AddRange(new string[] {  });
-
+		PrivateDependencyModuleNames.AddRange(new string[] { "Slate","SlateCore"  });
+		
+		PublicIncludePaths.AddRange(new string[] { 
+			"LestaGameJam/Public/Player",
+			"LestaGameJam/Public/UI",
+		});
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 		

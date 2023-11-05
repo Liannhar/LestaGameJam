@@ -19,8 +19,6 @@ public:
 	AContrPawn();
 
 protected:
-	virtual void BeginPlay() override;
-
 	UPROPERTY(VisibleAnywhere, BluePrintReadWrite, Category = "Components")
 	UCameraComponent* m_cameraComponent;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category= "Components")
