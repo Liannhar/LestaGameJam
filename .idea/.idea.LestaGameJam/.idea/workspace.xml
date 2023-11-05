@@ -8,9 +8,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="654fc423-d6d1-404a-a2c3-0cfca431fe95" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/LestaGameJam/CoreTypes.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LestaGameJam.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/LestaGameJam.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP_LestaGameJamGameModeBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP_LestaGameJamGameModeBase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/BP_PawnBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/BP_PawnBase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Player/BP_ContrPawn.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LestaGameJam/LestaGameJam.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LestaGameJam/LestaGameJam.Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LestaGameJam/LestaGameJamGameModeBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LestaGameJam/LestaGameJamGameModeBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LestaGameJam/LestaGameJamGameModeBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LestaGameJam/LestaGameJamGameModeBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LestaGameJam/Private/Player/ContrPawn.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LestaGameJam/Private/Player/ContrPawn.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LestaGameJam/Private/Player/GJPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LestaGameJam/Private/Player/GJPlayerController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LestaGameJam/Public/Player/ContrPawn.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LestaGameJam/Public/Player/ContrPawn.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LestaGameJam/Public/Player/GJPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LestaGameJam/Public/Player/GJPlayerController.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "JM-2",
+    "git-widget-placeholder": "JM-3",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -128,7 +140,9 @@
       <option name="presentableId" value="Default" />
       <updated>1699021837483</updated>
       <workItem from="1699021840508" duration="1636000" />
-      <workItem from="1699097438441" duration="13106000" />
+      <workItem from="1699097438441" duration="28143000" />
+      <workItem from="1699136542536" duration="8976000" />
+      <workItem from="1699172632429" duration="2310000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <option name="closed" value="true" />
@@ -146,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699022879764</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Camera Controller">
+      <option name="closed" value="true" />
+      <created>1699118829057</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699118829057</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +179,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="blank project" />
-    <option name="LAST_COMMIT_MESSAGE" value="blank project" />
+    <MESSAGE value="Camera Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Camera Controller" />
   </component>
 </project>

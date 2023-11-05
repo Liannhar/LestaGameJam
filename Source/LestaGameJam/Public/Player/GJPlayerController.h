@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
+#include "LestaGameJam/CoreTypes.h"
 #include "GJPlayerController.generated.h"
 
 class UCameraComponent;
@@ -13,7 +14,6 @@ class LESTAGAMEJAM_API AGJPlayerController : public APlayerController
 {
 	GENERATED_BODY()
 public:
-	
 	virtual void SetupInputComponent() override;
 	
 	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="Camera")
@@ -33,12 +33,21 @@ public:
 	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="Camera")
 	float m_lengthZoomUpLimit=1000.0f;
 	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="Camera")
-	float m_socketCameraOffsetBase=300.0f;
+	float m_socketCameraOffsetBaseZ=150.0f;
+	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="Camera")
+	float m_socketCameraOffsetBaseX=-450.0f;
+	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="Camera")
+	float m_socketCameraOffsetBaseY=0.0f;
 
+protected:
+	void OnMatchStateChanged(EMatchState MatchState);
+	virtual void BeginPlay() override;
 private:
 	void MoveRight(float Amount);
 	void MoveForward(float Amount);
 	void Zoom(float Amount);
 	void ToCharacter();
 	void EndRound();
+	void PauseGame();
+	void EnabInput();
 };
