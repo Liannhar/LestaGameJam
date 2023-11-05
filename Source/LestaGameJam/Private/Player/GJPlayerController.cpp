@@ -43,7 +43,8 @@ void AGJPlayerController::MoveRight(float Amount)
 	const auto ContrPawn = Cast<AContrPawn>(GetPawn());
 	if(!ContrPawn) return;
 	const auto SpringArmComponent = ContrPawn->GetSpringArm();
-	if(!SpringArmComponent /*|| (SpringArmComponent->SocketOffset.Z<ContrPawn->GetActorLocation().Z+ m_lengthZoomDownLimit && Amount>0.0f) || (SpringArmComponent->SocketOffset.Z>ContrPawn->GetActorLocation().Z+ m_lengthZoomUpLimit && Amount<0.0f)*/) return;
+	UE_LOG(LogTemp,Display,TEXT("Location %f"),SpringArmComponent->SocketOffset.Y);
+	if(!SpringArmComponent || (SpringArmComponent->SocketOffset.Y>m_lengthYUpLimit && Amount>0.0f) || (SpringArmComponent->SocketOffset.Y<m_lengthYDownLimit && Amount<0.0f)) return;
 	SpringArmComponent->SocketOffset.Y+=Amount*m_cameraSpeed;
 }
 
@@ -53,18 +54,21 @@ void AGJPlayerController::MoveForward(float Amount)
 	const auto ContrPawn = Cast<AContrPawn>(GetPawn());
 	if(!ContrPawn) return;
 	const auto SpringArmComponent = ContrPawn->GetSpringArm();
-	if(!SpringArmComponent /*|| (SpringArmComponent->SocketOffset.Z<ContrPawn->GetActorLocation().Z+ m_lengthZoomDownLimit && Amount>0.0f) || (SpringArmComponent->SocketOffset.Z>ContrPawn->GetActorLocation().Z+ m_lengthZoomUpLimit && Amount<0.0f)*/) return;
+	
+	
+	if(!SpringArmComponent || (SpringArmComponent->GetRelativeLocation().X>m_lengthXUpLimit && Amount>0.0f) || (SpringArmComponent->GetRelativeLocation().X<m_lengthXDownLimit && Amount<0.0f)) return;
 	SpringArmComponent->SetRelativeLocation(SpringArmComponent->GetRelativeLocation()+FVector(Amount*m_cameraSpeed,0.0f,0.0f));
 }
 
 void AGJPlayerController::Zoom(float Amount)
 {
+	
 	if (!GetPawn()) return;
 	const auto ContrPawn = Cast<AContrPawn>(GetPawn());
 	if(!ContrPawn) return;
 	const auto Camera = ContrPawn->GetCamera();
 	if(!Camera) return;
-	//if ((Camera->GetRelativeLocation().X<m_lengthXRightLimit && Amount>0.0f) || (Camera->GetRelativeLocation().X<m_lengthXLeftLimit && Amount<0.0f)) return;
+	if ((Camera->GetRelativeLocation().X>m_zoomDownLimit && Amount>=0.0f) || (Camera->GetRelativeLocation().X<m_zoomUPLimit && Amount<0.0f)) return;
 	Camera->SetRelativeLocation(Camera->GetRelativeLocation()+FVector(Amount*m_zoomSpeed,0.0f,0.0f));
 	
 }
@@ -82,7 +86,6 @@ void AGJPlayerController::ToCharacter()
 	SpringArmComponent->SocketOffset.Z=m_socketCameraOffsetBaseZ;
 	SpringArmComponent->SocketOffset.X=m_socketCameraOffsetBaseX;
 	SpringArmComponent->SocketOffset.Y=m_socketCameraOffsetBaseY;
-	//SpringArmComponent->TargetArmLength=10.0f;
 }
 
 void AGJPlayerController::EndRound()
@@ -102,9 +105,9 @@ void AGJPlayerController::PauseGame()
 {
 	if(!GetWorld() || !GetWorld()->GetAuthGameMode()) return;
 
-	//GetWorld()->GetAuthGameMode()->SetPause(this);
+	GetWorld()->GetAuthGameMode()->SetPause(this);
 	const auto GameMode = Cast<ALestaGameJamGameModeBase>(GetWorld()->GetAuthGameMode());
-	GameMode->GameOver();
+	//GameMode->GameOver();
 }
 
 void AGJPlayerController::EnabInput()
