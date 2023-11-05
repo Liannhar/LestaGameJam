@@ -25,6 +25,12 @@ void AGJPlayerController::SetupInputComponent()
 void AGJPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
+	if (!GetPawn()) return;
+	const auto ContrPawn = Cast<AContrPawn>(GetPawn());
+	if(!ContrPawn) return;
+	const auto Camera = ContrPawn->GetCamera();
+	if(!Camera) return;
+	Camera->SetRelativeLocation(FVector(-300.0f,0.0f,0.0f));
 	if(GetWorld()) 
 	{
 		const auto GameMode = Cast<ALestaGameJamGameModeBase>(GetWorld()->GetAuthGameMode());
@@ -81,7 +87,7 @@ void AGJPlayerController::ToCharacter()
 	const auto Camera = ContrPawn->GetCamera();
 	const auto SpringArmComponent = ContrPawn->GetSpringArm();
 	if(!Camera || !SpringArmComponent) return;
-	Camera->SetRelativeLocation(FVector(0.0f,0.0f,0.0f));
+	Camera->SetRelativeLocation(FVector(-300.0f,0.0f,0.0f));
 	SpringArmComponent->SetRelativeLocation(FVector(0.0f,0.0f,0.0f));
 	SpringArmComponent->SocketOffset.Z=m_socketCameraOffsetBaseZ;
 	SpringArmComponent->SocketOffset.X=m_socketCameraOffsetBaseX;
