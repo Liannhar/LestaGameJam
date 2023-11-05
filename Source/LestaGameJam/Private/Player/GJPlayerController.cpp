@@ -25,6 +25,12 @@ void AGJPlayerController::SetupInputComponent()
 void AGJPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
+	if (!GetPawn()) return;
+	const auto ContrPawn = Cast<AContrPawn>(GetPawn());
+	if(!ContrPawn) return;
+	const auto Camera = ContrPawn->GetCamera();
+	if(!Camera) return;
+	Camera->SetRelativeLocation(FVector(-1000.0f,0.0f,0.0f));
 	if(GetWorld()) 
 	{
 		const auto GameMode = Cast<ALestaGameJamGameModeBase>(GetWorld()->GetAuthGameMode());
@@ -43,9 +49,10 @@ void AGJPlayerController::MoveRight(float Amount)
 	const auto ContrPawn = Cast<AContrPawn>(GetPawn());
 	if(!ContrPawn) return;
 	const auto SpringArmComponent = ContrPawn->GetSpringArm();
-	UE_LOG(LogTemp,Display,TEXT("Location %f"),SpringArmComponent->SocketOffset.Y);
-	if(!SpringArmComponent || (SpringArmComponent->SocketOffset.Y>m_lengthYUpLimit && Amount>0.0f) || (SpringArmComponent->SocketOffset.Y<m_lengthYDownLimit && Amount<0.0f)) return;
-	SpringArmComponent->SocketOffset.Y+=Amount*m_cameraSpeed;
+	UE_LOG(LogTemp,Display,TEXT("Location %f"),SpringArmComponent->GetRelativeLocation().Y);
+	UE_LOG(LogTemp,Display,TEXT("Amount %f"),Amount);
+	if(!SpringArmComponent || (SpringArmComponent->GetRelativeLocation().Y>m_lengthYUpLimit && Amount>0.0f) || (SpringArmComponent->GetRelativeLocation().Y<m_lengthYDownLimit && Amount<0.0f)) return;
+	SpringArmComponent->SetRelativeLocation(SpringArmComponent->GetRelativeLocation()+FVector(0.0f,Amount*m_cameraSpeed,0.0f));
 }
 
 void AGJPlayerController::MoveForward(float Amount)
@@ -81,7 +88,7 @@ void AGJPlayerController::ToCharacter()
 	const auto Camera = ContrPawn->GetCamera();
 	const auto SpringArmComponent = ContrPawn->GetSpringArm();
 	if(!Camera || !SpringArmComponent) return;
-	Camera->SetRelativeLocation(FVector(0.0f,0.0f,0.0f));
+	Camera->SetRelativeLocation(FVector(-1000.0f,0.0f,0.0f));
 	SpringArmComponent->SetRelativeLocation(FVector(0.0f,0.0f,0.0f));
 	SpringArmComponent->SocketOffset.Z=m_socketCameraOffsetBaseZ;
 	SpringArmComponent->SocketOffset.X=m_socketCameraOffsetBaseX;
