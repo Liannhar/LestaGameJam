@@ -22,13 +22,6 @@ AContrPawn::AContrPawn()
 
 }
 
-// Called when the game starts or when spawned
-void AContrPawn::BeginPlay()
-{
-	Super::BeginPlay();
-	
-}
-
 // Called every frame
 void AContrPawn::Tick(float DeltaTime)
 {
