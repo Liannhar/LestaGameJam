@@ -7,13 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="654fc423-d6d1-404a-a2c3-0cfca431fe95" name="Changes" comment="123">
+    <list default="true" id="654fc423-d6d1-404a-a2c3-0cfca431fe95" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/BP_PawnBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/BP_PawnBase.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Ded.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Ded.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/WBP_ClockWidjet.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/clock/WBP_Clock.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/clock/WBP_Clock.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/map/FirstLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/map/FirstLevel.umap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +23,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Liannhar"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Liannhar&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -233,7 +228,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699219112984</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="EDW">
+      <option name="closed" value="true" />
+      <created>1699224601883</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1699224601883</updated>
+    </task>
+    <task id="LOCAL-00012" summary="DW">
+      <option name="closed" value="true" />
+      <created>1699224891255</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1699224891255</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +263,8 @@
     <MESSAGE value="gamemodebase" />
     <MESSAGE value="Last Update" />
     <MESSAGE value="123" />
-    <option name="LAST_COMMIT_MESSAGE" value="123" />
+    <MESSAGE value="EDW" />
+    <MESSAGE value="DW" />
+    <option name="LAST_COMMIT_MESSAGE" value="DW" />
   </component>
 </project>
