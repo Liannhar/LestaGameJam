@@ -7,21 +7,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="654fc423-d6d1-404a-a2c3-0cfca431fe95" name="Changes" comment="Last Update">
+    <list default="true" id="654fc423-d6d1-404a-a2c3-0cfca431fe95" name="Changes" comment="123">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP_LestaGameJamGameModeBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP_LestaGameJamGameModeBase.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Health_Component.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Health_Component.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja/Lyja.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja/Lyja.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/BP_Teen_Controller.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/BP_Teen_Controller.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/TestDelegate.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/TestDelegate.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/WBP_Clock.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/WBP_ClockWidjet.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/WBP_HUD.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/Стрелка_минутная.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/Стрелка_часовая.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/Часы.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/BP_JMHUD.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/BP_JMHUD.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/city/city.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/city/city.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/Old_Man_Walk__1__Retargeted.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/Old_Man_Walk__1__Retargeted.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Ded.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Ded.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/Heart/WBP_Clock.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/clock/WBP_Clock.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/clock/WBP_Clock.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/clock/strelka_hour.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/clock/strelka_minute.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/city/Colore.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/city/Colore.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/city/ContornoEdifici.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/city/ContornoEdifici.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/city/Marcapiede.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/city/Marcapiede.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/city/Material_002.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/city/Material_002.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/city/Texture_Strada.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/city/Texture_Strada.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/city/Texture_Varie.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/city/Texture_Varie.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/city/Vetro.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/city/Vetro.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/map/FirstLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/map/FirstLevel.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/LestaGameJam/Private/Player/GJPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LestaGameJam/Private/Player/GJPlayerController.cpp" afterDir="false" />
     </list>
@@ -218,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699201696326</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="123">
+      <option name="closed" value="true" />
+      <created>1699219112984</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699219112984</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +244,7 @@
     <MESSAGE value="DedSkeleton" />
     <MESSAGE value="gamemodebase" />
     <MESSAGE value="Last Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Last Update" />
+    <MESSAGE value="123" />
+    <option name="LAST_COMMIT_MESSAGE" value="123" />
   </component>
 </project>
