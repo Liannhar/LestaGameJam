@@ -7,8 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="654fc423-d6d1-404a-a2c3-0cfca431fe95" name="Changes" comment="control">
+    <list default="true" id="654fc423-d6d1-404a-a2c3-0cfca431fe95" name="Changes" comment="Level">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_11_2023_14_16__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_11_2023_14_16__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_11_2023_14_16__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_11_2023_14_16__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2023_14_24__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2023_14_24__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Ded.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Ded.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/clock/WBP_Clock.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/clock/WBP_Clock.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/map/FirstLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/map/FirstLevel.umap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +58,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Level6",
+    "git-widget-placeholder": "LevelSuper",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -303,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699270389518</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Level">
+      <option name="closed" value="true" />
+      <created>1699272776487</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699272776487</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +349,7 @@
     <MESSAGE value="123" />
     <MESSAGE value="AAAAA" />
     <MESSAGE value="control" />
-    <option name="LAST_COMMIT_MESSAGE" value="control" />
+    <MESSAGE value="Level" />
+    <option name="LAST_COMMIT_MESSAGE" value="Level" />
   </component>
 </project>
