@@ -40,6 +40,7 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void GameOver();
 	
+	
 protected:
 	virtual bool SetPause(APlayerController* PC, FCanUnpause CanUnpauseDelegate) override;
 	

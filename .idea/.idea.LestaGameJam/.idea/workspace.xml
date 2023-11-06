@@ -7,11 +7,136 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="654fc423-d6d1-404a-a2c3-0cfca431fe95" name="Changes" comment="AAAAAAAA">
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Health_Component.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Health_Component.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/BP_GameOverWidget.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/BP_GameOverWidget.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/BP_PauseWidget.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/BP_PauseWidget.uasset" afterDir="false" />
+    <list default="true" id="654fc423-d6d1-404a-a2c3-0cfca431fe95" name="Changes" comment="AAAA">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/ABP_Ded.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/Alpha_Body_MAT.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/Alpha_Joints_MAT.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/BOT_IK_RIG.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/DED.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/DED_IK_RIG.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/DED_Idle.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/DED_PhysicsAsset.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/DED_Skeleton.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/Ded_Hit.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/Ded_Hit_Montage.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/NewIKRetargeter.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/Old_Man_Idle.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/Old_Man_Walk.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/Old_Man_Walk_PhysicsAsset.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/Old_Man_Walk_Skeleton.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/Old_Man_Walk__1_.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/Old_Man_Walk__1__Retargeted.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/Zombie_Reaction_Hit.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/black.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/blue_jeans.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/lambert1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/skin.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/white_boot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/BP_Ded.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/BP_Health_Component.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/BP_PawnBase.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/BP_Point.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/BP_Step_Component.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Cat/ABP_CAT.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Cat/ALL0666_Anim_Armature_001_Armature_001_idle+attack01+attack02+roar+die+eat+Get_Hit+walk01_Retargeted.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Cat/BP_CAT.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Cat/CAT.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Cat/CAT_Anim_GLTF_created_0_All_Animations_GLTF_created_0.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Cat/CAT_PhysicsAsset.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Cat/CAT_Skeleton.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Cat/Cat_Hit_Montage.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Cat/cat1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Cat/cat_base.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Cat/cat_eyes.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Cat/eyes.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Ded.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Health_Component.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Step_Component.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Dog/BP_Dog.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Dog/DOG.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Dog/DOG_Anim_skeletal_3_standing_skeletal_3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Dog/DOG_PhysicsAsset.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Dog/DOG_Skeleton.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Dog/character_dog_BaseColor.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Dog/lambert1_002.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/General/BP_Ded_Inst.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja/Lyja.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja/Лужа_1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja/Лужа_1_Mat.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja/Лужа_2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja/Лужа_2_Mat.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja/Лужа_3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja/Лужа_3_Mat.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja/Лужа_4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja/Лужа_4_Mat.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja/Лужа_5.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja/Лужа_5_Mat.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja/Лужа_6.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja/Лужа_6_Mat.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja/Лужа_7.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja/Лужа_7_Mat.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja/Лужа_8.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja/Лужа_8_Mat.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Map/Test.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/NewMap.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/ABP_Teens.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Angry_Gesture.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Angry_Gesture_Montage.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/BP_Teen_Controller.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/BP_Teens.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Mat_1/TEEN_M_1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Mat_1/character_junior_junior_BaseColor.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Mat_1/character_junior_junior_Normal.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Mat_1/character_junior_junior_OcclusionRoughnessMetallic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Mat_2/2_character_junior_junior_BaseColor.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Mat_2/2_character_junior_junior_Normal.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Mat_2/2_character_junior_junior_OcclusionRoughnessMetallic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Mat_2/Teen_MAT_2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Mat_3/3_character_junior_junior_BaseColor.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Mat_3/3_character_junior_junior_Normal.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Mat_3/3_character_junior_junior_OcclusionRoughnessMetallic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Mat_3/Teen_Mat_3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Offensive_Idle_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Offensive_Idle_PhysicsAsset.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Strut_Walking.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Teens.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Teens_Mesh.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Teens_Skeleton.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/TestDelegate.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Wall.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Walls/Wall.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Walls/black.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Walls/brown.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Walls/dark_brown.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Walls/dark_yellow.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Walls/red.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Walls/walls_assets__1__wall_1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Walls/walls_assets__1__wall_2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Walls/walls_assets__1__wall_3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Walls/walls_assets__1__wall_4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Walls/walls_assets__1__wall_5.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Walls/walls_assets__1__wall_6.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Walls/walls_assets__1__wall_7.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Walls/white.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Walls/yellow.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/Clock_1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/Heart/12345.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/Heart/WBP_Hearts.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/Hour_Arrow_1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/Minute_arrow_1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/WBP_ClockWidjet.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/WBP_GameWidget.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/clock/WBP_Clock.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Cinemtic/Start.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/BP_JMHUD.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/BP_JMHUD.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/VFX/water_material.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/VFX/water_material.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/map/FirstLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/map/FirstLevel.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LestaGameJam/LestaGameJamGameModeBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LestaGameJam/LestaGameJamGameModeBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LestaGameJam/LestaGameJamGameModeBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LestaGameJam/LestaGameJamGameModeBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LestaGameJam/Private/Player/GJPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LestaGameJam/Private/Player/GJPlayerController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LestaGameJam/Public/Player/GJPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LestaGameJam/Public/Player/GJPlayerController.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,17 +146,17 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Level2" />
+        <entry key="$PROJECT_DIR$" value="GameVersion" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Liannhar"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Liannhar&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -42,7 +167,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://D:/UnrealProgects/GameJam/LestaGameJam/Source/LestaGameJam/Private/Player/GJPlayerController.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/UnrealProgects/GameJam/LestaGameJam/Source/LestaGameJam/Public/Player/GJPlayerController.h" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -59,7 +183,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "GameVersion",
+    "git-widget-placeholder": "Level5",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -310,7 +434,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699237784189</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="AAAA">
+      <option name="closed" value="true" />
+      <created>1699255837304</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699255837304</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +474,8 @@
     <MESSAGE value="123" />
     <MESSAGE value="AAAAA" />
     <MESSAGE value="AAAAAAAA" />
-    <option name="LAST_COMMIT_MESSAGE" value="AAAAAAAA" />
+    <MESSAGE value="wHATiSlOVE" />
+    <MESSAGE value="AAAA" />
+    <option name="LAST_COMMIT_MESSAGE" value="AAAA" />
   </component>
 </project>

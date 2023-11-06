@@ -25,6 +25,7 @@ void ALestaGameJamGameModeBase::BeginPlay()
 void ALestaGameJamGameModeBase::EndPassivePhase()
 {
 	m_currentRound++;
+	
 	OnActivePhase.Broadcast();
 }
 
