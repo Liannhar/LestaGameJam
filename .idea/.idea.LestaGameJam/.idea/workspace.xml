@@ -8,22 +8,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="654fc423-d6d1-404a-a2c3-0cfca431fe95" name="Changes" comment="123">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.LestaGameJam.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LestaGameJam.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LestaGameJam.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/shelf/Uncommitted_changes_before_rebase__Changes_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/shelf/Uncommitted_changes_before_rebase__Changes_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP_LestaGameJamGameModeBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP_LestaGameJamGameModeBase.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/Old_Man_Walk__1__Retargeted.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Animations/Old_Man_Walk__1__Retargeted.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Ded.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Ded.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/Heart/WBP_Clock.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/clock/WBP_Clock.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/clock/WBP_Clock.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/clock/strelka_hour.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/clock/strelka_minute.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/BP_PawnBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/BP_PawnBase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/BP_Point.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/BP_Point.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Cat/BP_CAT.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Cat/BP_CAT.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Health_Component.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Health_Component.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/BP_JMHUD.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/BP_JMHUD.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/city/Colore.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/city/Colore.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/city/ContornoEdifici.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/city/ContornoEdifici.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/city/Marcapiede.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/city/Marcapiede.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/city/Material_002.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/city/Material_002.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/city/Texture_Strada.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/city/Texture_Strada.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/city/Texture_Varie.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/city/Texture_Varie.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/city/Vetro.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/city/Vetro.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/map/FirstLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/map/FirstLevel.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LestaGameJam/Private/Player/GJPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LestaGameJam/Private/Player/GJPlayerController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/city/city.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/city/city.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +57,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "JM-3",
+    "git-widget-placeholder": "Level1",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -145,6 +149,7 @@
       <workItem from="1699097438441" duration="28143000" />
       <workItem from="1699136542536" duration="8976000" />
       <workItem from="1699172632429" duration="12045000" />
+      <workItem from="1699235452484" duration="170000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <option name="closed" value="true" />
