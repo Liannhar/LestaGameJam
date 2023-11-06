@@ -7,12 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="654fc423-d6d1-404a-a2c3-0cfca431fe95" name="Changes" comment="AAAAA">
+    <list default="true" id="654fc423-d6d1-404a-a2c3-0cfca431fe95" name="Changes" comment="control">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Ded.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Ded.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/map/FirstLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/map/FirstLevel.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LestaGameJam/Private/Player/GJPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LestaGameJam/Private/Player/GJPlayerController.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LestaGameJam/Public/Player/GJPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LestaGameJam/Public/Player/GJPlayerController.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699235907119</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="control">
+      <option name="closed" value="true" />
+      <created>1699270389518</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1699270389518</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +334,7 @@
     <MESSAGE value="Last Update" />
     <MESSAGE value="123" />
     <MESSAGE value="AAAAA" />
-    <option name="LAST_COMMIT_MESSAGE" value="AAAAA" />
+    <MESSAGE value="control" />
+    <option name="LAST_COMMIT_MESSAGE" value="control" />
   </component>
 </project>
