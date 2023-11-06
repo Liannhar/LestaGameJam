@@ -39,15 +39,17 @@ public:
 	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="Camera")
 	float m_socketCameraOffsetBaseY=0.0f;
 
+	
 protected:
 	void OnMatchStateChanged(EMatchState MatchState);
 	virtual void BeginPlay() override;
+	
+	void ToCharacter();
+
 private:
 	void MoveRight(float Amount);
 	void MoveForward(float Amount);
 	void Zoom(float Amount);
-	void ToCharacter();
-	void EndRound();
 	void PauseGame();
 	void EnabInput();
 };

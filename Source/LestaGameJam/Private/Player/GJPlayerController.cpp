@@ -17,7 +17,6 @@ void AGJPlayerController::SetupInputComponent()
 	InputComponent->BindAxis("CameraMoveForward", this, &AGJPlayerController::MoveForward);
 	InputComponent->BindAxis("CameraZoom", this, &AGJPlayerController::Zoom);
 	InputComponent->BindAction("ToCharacter", IE_Pressed,this, &AGJPlayerController::ToCharacter);
-	InputComponent->BindAction("EndRound", IE_Pressed,this, &AGJPlayerController::EndRound);
 	InputComponent->BindAction("Pause", IE_Pressed,this, &AGJPlayerController::PauseGame);
 	bShowMouseCursor=true;
 }
@@ -38,6 +37,7 @@ void AGJPlayerController::BeginPlay()
 		{
 			GameMode->OnMatchStateChanged.AddUObject(this,&AGJPlayerController::OnMatchStateChanged);
 			GameMode->OnPassivePhase.AddDynamic(this,&AGJPlayerController::EnabInput);
+			GameMode->OnActivePhase.AddDynamic(this,&AGJPlayerController::ToCharacter);
 			SetInputMode(FInputModeGameAndUI());
 		}
 	}
@@ -95,18 +95,6 @@ void AGJPlayerController::ToCharacter()
 	SpringArmComponent->SocketOffset.Y=m_socketCameraOffsetBaseY;
 }
 
-void AGJPlayerController::EndRound()
-{
-	if(GetWorld())
-	{
-		if(const auto GameMode = Cast<ALestaGameJamGameModeBase>(GetWorld()->GetAuthGameMode()))
-		{
-			GameMode->EndPassivePhase();
-			ToCharacter();
-			DisableInput(this);
-		}
-	}
-}
 
 void AGJPlayerController::PauseGame()
 {
