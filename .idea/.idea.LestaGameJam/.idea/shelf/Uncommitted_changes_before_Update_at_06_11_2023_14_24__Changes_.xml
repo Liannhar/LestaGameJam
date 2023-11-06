@@ -1,0 +1,14 @@
+﻿<changelist name="Uncommitted_changes_before_Update_at_06_11_2023_14_24_[Changes]" date="1699269868729" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2023_14_24_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 06.11.2023 14:24 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="Content/map/FirstLevel.umap" />
+    <option name="AFTER_PATH" value="Content/map/FirstLevel.umap" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2023_14_24_[Changes]/FirstLevel.umap" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Content/Blueprints/Akhmad/Ded/BP_Ded.uasset" />
+    <option name="AFTER_PATH" value="Content/Blueprints/Akhmad/Ded/BP_Ded.uasset" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2023_14_24_[Changes]/BP_Ded.uasset" />
+  </binary>
+</changelist>
