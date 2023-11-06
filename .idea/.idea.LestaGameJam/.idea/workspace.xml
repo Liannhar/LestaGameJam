@@ -7,34 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="654fc423-d6d1-404a-a2c3-0cfca431fe95" name="Changes" comment="AAAAA">
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/ABP_Teens.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Mat_3/3_character_junior_junior_BaseColor.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Mat_3/3_character_junior_junior_Normal.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Mat_3/3_character_junior_junior_OcclusionRoughnessMetallic.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Mat_3/Teen_Mat_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/WBP_ClockWidjet.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LestaGameJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/BP_PawnBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/BP_PawnBase.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Cat/BP_CAT.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Cat/BP_CAT.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Ded.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Ded.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Dog/AnimatedDog.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/General/BP_Ded_Inst.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/General/BP_Ded_Inst.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja/Lyja.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Lyja/Lyja.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Map/Test.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Map/Test.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/BP_Teens.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/BP_Teens.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Mat_2/Teen_MAT_2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Teens/Mat_2/Teen_MAT_2.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Walls/walls_assets__1__wall_2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Walls/walls_assets__1__wall_2.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/clock/WBP_Clock.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/clock/WBP_Clock.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/clock/clock.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/Clock_1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/clock/strelka_chas.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/Hour_Arrow_1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/clock/strelka_minut.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Widget/Minute_arrow_1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Sounds/Street_Cue.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Sounds/Street_Cue.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Sounds/lay-sobaki_Cue.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Sounds/lay-sobaki_Cue.uasset" afterDir="false" />
+    <list default="true" id="654fc423-d6d1-404a-a2c3-0cfca431fe95" name="Changes" comment="AAAAAAAA">
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Health_Component.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Akhmad/Ded/BP_Health_Component.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/BP_GameOverWidget.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/BP_GameOverWidget.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/BP_PauseWidget.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/BP_PauseWidget.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/map/FirstLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/map/FirstLevel.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LestaGameJam/Private/Player/GJPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LestaGameJam/Private/Player/GJPlayerController.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LestaGameJam/Public/Player/GJPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LestaGameJam/Public/Player/GJPlayerController.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Level1" />
+        <entry key="$PROJECT_DIR$" value="Level2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +40,10 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/UnrealProgects/GameJam/LestaGameJam/Source/LestaGameJam/Private/Player/GJPlayerController.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/UnrealProgects/GameJam/LestaGameJam/Source/LestaGameJam/Public/Player/GJPlayerController.h" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -78,7 +59,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Merging Level2",
+    "git-widget-placeholder": "GameVersion",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -231,7 +212,7 @@
       <workItem from="1699097438441" duration="28143000" />
       <workItem from="1699136542536" duration="8976000" />
       <workItem from="1699172632429" duration="12045000" />
-      <workItem from="1699235444716" duration="1638000" />
+      <workItem from="1699235444716" duration="3930000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <option name="closed" value="true" />
@@ -321,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699235907119</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="AAAAAAAA">
+      <option name="closed" value="true" />
+      <created>1699237784189</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1699237784189</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,6 +341,7 @@
     <MESSAGE value="Last Update" />
     <MESSAGE value="123" />
     <MESSAGE value="AAAAA" />
-    <option name="LAST_COMMIT_MESSAGE" value="AAAAA" />
+    <MESSAGE value="AAAAAAAA" />
+    <option name="LAST_COMMIT_MESSAGE" value="AAAAAAAA" />
   </component>
 </project>
